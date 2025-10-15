@@ -37,8 +37,11 @@ Features
 Installation
 
 Clone the repository:
+📦 Clone the repo:
+```bash
+git clone https://github.com/alexonplus/MoneyManager.git -
 
-git clone https://github.com/<username>/<repo>.git
+```
 
 
 Open the project in Visual Studio or any C# IDE.
@@ -47,8 +50,11 @@ Make sure Spectre.Console is installed via NuGet:
 
 Install-Package Spectre.Console:
 
+```bash
 > dotnet add package Spectre.Console
 > dotnet add package Spectre.Console.Cli
+
+```
 
 
 ## Classes
@@ -63,6 +69,14 @@ The project uses the following classes:
 
 ![Diagram](https://github.com/alexonplus/MoneyManager/blob/main/diagram-Manager.jpg?raw=true)
 
+
+
+How did classes and methods help you organize the program?
+Using classes and methods made the program much easier to structure and understand. Each class had a specific responsibility — for example, the Transaction class handled individual transactions, while the BudgetManager managed all of them together. Methods helped to divide the logic into smaller, reusable parts, such as adding, deleting, or showing transactions. This made the code cleaner, easier to maintain, and simpler to test.
+
+
+Which part of the project was the most challenging?
+The most challenging part was designing the menu and user interaction using Spectre.Console. It required some learning to display text, colors, and menu navigation correctly in the console. Another challenge was making sure all parts — like adding and deleting transactions — worked smoothly together without errors.
 
 
 

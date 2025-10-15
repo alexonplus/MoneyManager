@@ -167,3 +167,5 @@ class Program
  5️⃣ 💾 Avsluta programmet
 
 (Bonus: skapa en extra meny för att visa transaktioner per kategori.)*/
+
+//project is ready for git
